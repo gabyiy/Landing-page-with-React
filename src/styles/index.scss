@@ -12,6 +12,16 @@
 
 */
 .footerH{
-    height: 70px;
+    max-height: 100%;
     margin-bottom: auto;
+   margin-top: 20px;
+}
+html {
+    background-color: #fff;
+    margin:0px;
+}
+
+body {
+    padding: 0px;
+    margin:0px;
 }

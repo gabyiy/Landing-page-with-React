@@ -2,10 +2,13 @@ import React from "react";
 
 export const Footer = () => {
 	return (
-		<blockquote className="blockquote text-center bg-dark footerH text-center">
-			<footer className="blockquote-footer ">
-				Someone famous in <cite title="Source Title">Source Title</cite>
-			</footer>
-		</blockquote>
+		<footer className=" bg-dark text-center text-white footerH text-center h-100  mh-100 ">
+			<div className="text-center p-3  ">
+				© 2020 Copyright:
+				<a className="text-white" href="https://mdbootstrap.com/">
+					MDBootstrap.com
+				</a>
+			</div>
+		</footer>
 	);
 };
